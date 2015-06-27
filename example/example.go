@@ -120,5 +120,5 @@ func main() {
 	csrfbanana.TokenName = "token"
 
 	fmt.Println("Listening on http://localhost:80/")
-	http.ListenAndServe(":80", cs)
+	http.ListenAndServe(":8080", cs)
 }
